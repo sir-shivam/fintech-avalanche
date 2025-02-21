@@ -14,7 +14,7 @@ import {
   HelpCircle as Help, 
   CreditCard, 
   Search, 
- 
+ PackageX,
   LogOut 
 } from 'lucide-react';
 
@@ -27,6 +27,7 @@ export default function SidebarContent() {
     { icon: Users, label: "Beneficiaries", path: "/beneficiaries" },
     { icon: Settings, label: "Settings", path: "/settings" },
     { icon: Help, label: "Help & Support", path: "/help-support" },
+    {icon: PackageX, label: "Complain", path: "/complaint"}
   ];
 
   return (

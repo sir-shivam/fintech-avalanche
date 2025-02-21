@@ -1,13 +1,18 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import replace from '@rollup/plugin-replace'
 import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    replace({
+      'process.env': JSON.stringify(import.meta.env)
+    }),
+  ],
   resolve: {
     alias: {
-      // Alias to browser-compatible modules
       '@': path.resolve(__dirname, './src'),
       path: 'path-browserify',
       url: 'url',
@@ -15,9 +20,9 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: ['path-browserify', 'url', 'source-map-js'], // Include the browser-compatible versions for Vite to handle
+    include: ['path-browserify', 'url', 'source-map-js'],
   },
   build: {
-    sourcemap: false, // Optionally disable source maps for production if not needed
+    sourcemap: false,
   },
 })

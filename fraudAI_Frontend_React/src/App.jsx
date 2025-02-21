@@ -4,6 +4,7 @@ import Homepage from './components/logic/homepage';
 import Dashboard from './components/logic/Dashboard';
 import PredictForm from '../PredictForm'
 import Recent from './components/logic/Recent'
+import Complain from './components/logic/complain'
 const RouteTitleUpdater = () => {
   const location = useLocation();
 
@@ -39,6 +40,7 @@ const App = () => {
         <Route path="/beneficiaries" element={<Homepage />} />
         <Route path="/settings" element={<PredictForm />} />
         <Route path="/help-support" element={<Homepage />} />
+        <Route path="/complaint" element={<Complain />} /> 
       </Routes>
     </Router>
     
