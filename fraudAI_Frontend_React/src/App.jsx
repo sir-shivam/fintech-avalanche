@@ -7,10 +7,10 @@ import {
 } from "react-router-dom";
 import Homepage from "./components/logic/homepage";
 import Dashboard from "./components/logic/Dashboard";
-import PredictForm from "../PredictForm";
 import Recent from "./components/logic/Recent";
 import { UserProvider } from "./context/user/index.jsx";
 import SignIn from "./components/logic/SignIn";
+import Statement from './components/logic/statement';
 
 const RouteTitleUpdater = () => {
   const location = useLocation();
@@ -55,7 +55,7 @@ const App = () => {
           <Route path="/transactions" element={<Recent />} />
           <Route
             path="/statements"
-            element={<RouteGuard element={<Homepage />} />}
+            element={<RouteGuard element={<Statement />} />}
           />
           <Route path="/beneficiaries" element={<Homepage />} />
           {/* <Route path="/settings" element={<PredictForm />} /> */}
@@ -71,6 +71,7 @@ const App = () => {
         </Routes>
       </Router>
     </UserProvider>
+
   );
 };
 
