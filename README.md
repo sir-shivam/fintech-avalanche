@@ -43,47 +43,39 @@ By leveraging Random Forest classifiers for accurate predictions, SafeUPI ensure
 
 # User Interface Snapshots
 
-![Signin UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 58 19 PM" src="https://github.com/user-attachments/assets/5b35633d-c076-4870-b73b-5fc01de7a27c" />
-)
+![Signin UI](SystemDesignDiagrams/signin.png)
 
 *Our SafeUPI User Signin UI*
 
-![Dashboard UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 56 53 PM" src="https://github.com/user-attachments/assets/ca5f16ea-e59b-44e4-aa8b-f6e1ca7b254c" />
-)
+![Dashboard UI](SystemDesignDiagrams/dashboard.png)
 
 *Our SafeUPI User Dashboard UI*
 
 ---
 
-![Send Money UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 00 PM" src="https://github.com/user-attachments/assets/5beeac65-6c7c-40c0-83a6-c1923ca9c3b3" />
-)
+![Send Money UI](SystemDesignDiagrams/send_money.png)
 
 *Our SafeUPI Send Money UI*
 
-![Fraud Detection UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 42 PM" src="https://github.com/user-attachments/assets/8e318cba-239b-4a6f-b66f-708482bbd6ac" />
-)
+![Fraud Detection UI](SystemDesignDiagrams/fraud_ui.png)
 
 *Our SafeUPI Fraud Detection Warning UI*
 
 ---
 
-![Recent Transaction UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 09 PM" src="https://github.com/user-attachments/assets/ff4c303d-070e-4f79-81a6-6d784b46cc97" />
-)
+![Recent Transaction UI](SystemDesignDiagrams/recent_transactions.png)
 
 *Our SafeUPI Recent Transaction UI*
 
-![Complaint UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 17 PM" src="https://github.com/user-attachments/assets/b09197db-0ae6-4c2c-a9d1-5e5bfe1ba7bb" />
-)
+![Complaint UI](SystemDesignDiagrams/complaint.png)
 
 *Our SafeUPI Complaint UI*
 
-![Transaction Details UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 48 PM" src="https://github.com/user-attachments/assets/7afaa2d5-579f-4fab-8aad-51265fc075d1" />
-)
+![Transaction Details UI](SystemDesignDiagrams/transaction_ui.png)
 
 *Our Transaction Details UI*
 
-![Complaints History UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 55 PM" src="https://github.com/user-attachments/assets/a7bf5367-d3c4-4194-baed-8d7c4204d0e6" />
-)
+![Complaints History UI](SystemDesignDiagrams/complaint_history.png)
 
 *Our Complaints History UI*
 
