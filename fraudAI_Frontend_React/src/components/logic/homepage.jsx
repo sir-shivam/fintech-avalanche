@@ -5168,7 +5168,7 @@ export default function Homepage() {
 
       // Send the features to the Flask server
       const response = await fetch(
-        "https://0b05-2401-4900-634a-8866-797f-9669-99af-1302.ngrok-free.app/predict",
+        "https://fintech-avalanche.onrender.com/predict",
         {
           method: "POST",
           headers: {
