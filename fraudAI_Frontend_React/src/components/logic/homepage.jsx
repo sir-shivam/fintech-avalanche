@@ -5065,6 +5065,7 @@ export default function Homepage() {
   const [recipientUpiId, setRecipientUpiId] = useState("");
   const [verificationStatus, setVerificationStatus] = useState("idle");
   const [isAlertOpen, setIsAlertOpen] = useState(false);
+  const [Qs , setQs] = useState(2);
 
   const [amount, setAmount] = useState(1000);
 
@@ -5107,6 +5108,7 @@ export default function Homepage() {
       );
       const qs = await getDocs(q2);
       console.log(qs.size, "hello");
+      setQs(qs.size);
       const querySnapshot = await getDocs(q);
 
       // Check if a matching document was found
@@ -5473,7 +5475,7 @@ export default function Homepage() {
                         <span className="font-semibold text-gray-700">
                           {key}:
                         </span>{" "}
-                        <span className="text-gray-600">{key == "Fraud Complaints Count"? qs.size : value}</span>
+                        <span className="text-gray-600">{key == "Fraud Complaints Count"? Qs : value}</span>
                       </motion.li>
                     ))}
                   </ul>
