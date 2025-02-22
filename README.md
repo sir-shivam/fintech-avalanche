@@ -215,5 +215,5 @@ Verified transactions activate the "Send Money" button.
 Recent Transactions:
 Displays historical data, including recipient, amount, date, and fraud status.
 
-
+![System Design](SystemDesignDiagrams/SystemDesign.png)
 
