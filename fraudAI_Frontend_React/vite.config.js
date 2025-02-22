@@ -18,6 +18,9 @@ export default defineConfig({
     sourcemap: false,
   },
   server: {
-    port: 3000, // Change if needed
-  },
+    headers: {
+      "Cross-Origin-Opener-Policy": "same-origin",
+      "Cross-Origin-Embedder-Policy": "require-corp"
+    }
+  }
 })
