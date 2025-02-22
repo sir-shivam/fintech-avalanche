@@ -41,6 +41,10 @@ By leveraging Random Forest classifiers for accurate predictions, SafeUPI ensure
 
 ---
 
+**Demo Video**
+
+https://github.com/user-attachments/assets/1fdb4488-3c8e-4681-a9b5-38879ada8384
+
 # User Interface Snapshots
 
 ![Signin UI](SystemDesignDiagrams/signin.png)
@@ -71,13 +75,15 @@ By leveraging Random Forest classifiers for accurate predictions, SafeUPI ensure
 
 *Our SafeUPI Complaint UI*
 
-![Transaction Details UI](SystemDesignDiagrams/transaction_ui.png)
+![Uploading WhatsApp Image 2025-02-22 at 3.28.13 PM.jpeg…]()
+
 
 *Our Transaction Details UI*
 
 ![Complaints History UI](SystemDesignDiagrams/complaint_history.png)
 
 *Our Complaints History UI*
+
 
 ## Installation
 
@@ -234,4 +240,7 @@ Recent Transactions:
 Displays historical data, including recipient, amount, date, and fraud status.
 
 ![System Design](SystemDesignDiagrams/SystemDesign.png)
+
+
+
 
