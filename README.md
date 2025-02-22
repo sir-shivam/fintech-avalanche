@@ -75,8 +75,7 @@ https://github.com/user-attachments/assets/1fdb4488-3c8e-4681-a9b5-38879ada8384
 
 *Our SafeUPI Complaint UI*
 
-![Uploading WhatsApp Image 2025-02-22 at 3.28.13 PM.jpeg…]()
-
+![WhatsApp Image 2025-02-22 at 3 28 13 PM](https://github.com/user-attachments/assets/230f4d42-9688-4513-bb70-1368b1d3d85f)
 
 *Our Transaction Details UI*
 
