@@ -41,24 +41,47 @@ By leveraging Random Forest classifiers for accurate predictions, SafeUPI ensure
 
 ---
 
+**Demo Video**
+
+https://github.com/user-attachments/assets/1fdb4488-3c8e-4681-a9b5-38879ada8384
+
 # User Interface Snapshots
 
-![Dashboard UI](https://i.imgur.com/1mgOS8m.png)
+![Signin UI](SystemDesignDiagrams/signin.png)
 
-*Our SafePay AI User Dashboard UI*
+*Our SafeUPI User Signin UI*
 
----
+![Dashboard UI](SystemDesignDiagrams/dashboard.png)
 
-![Fraud Detection UI](https://i.imgur.com/4h5D08o.png)
-
-*Our SafePay AI Fraud Detection Warning UI*
+*Our SafeUPI User Dashboard UI*
 
 ---
 
-![Recent Transaction UI](https://i.imgur.com/6AwLhGA.png)
+![Send Money UI](SystemDesignDiagrams/send_money.png)
 
-*Our SafePay Recent Transaction UI*
+*Our SafeUPI Send Money UI*
 
+![Fraud Detection UI](SystemDesignDiagrams/fraud_ui.png)
+
+*Our SafeUPI Fraud Detection Warning UI*
+
+---
+
+![Recent Transaction UI](SystemDesignDiagrams/recent_transactions.png)
+
+*Our SafeUPI Recent Transaction UI*
+
+![Complaint UI](SystemDesignDiagrams/complaint.png)
+
+*Our SafeUPI Complaint UI*
+
+![WhatsApp Image 2025-02-22 at 3 28 13 PM](https://github.com/user-attachments/assets/230f4d42-9688-4513-bb70-1368b1d3d85f)
+
+*Our Transaction Details UI*
+
+![Complaints History UI](SystemDesignDiagrams/complaint_history.png)
+
+*Our Complaints History UI*
 
 
 ## Installation
@@ -216,4 +239,7 @@ Recent Transactions:
 Displays historical data, including recipient, amount, date, and fraud status.
 
 ![System Design](SystemDesignDiagrams/SystemDesign.png)
+
+
+
 
