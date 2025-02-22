@@ -5463,25 +5463,30 @@ export default function Homepage() {
               </div>
               <div className="p-6 max-h-[60vh] overflow-y-auto">
                 {transactionData.length > 0 ? (
-                  <ul className="space-y-4">
-                    {transactionData.map(([key, value], index) => (
-                      <motion.li
-                        key={key}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: index * 0.1 }}
-                        className="bg-gray-50 p-3 rounded-md"
-                      >
-                        <span className="font-semibold text-gray-700">
-                          {key}:
-                        </span>{" "}
-                        <span className="text-gray-600">{key == "Fraud Complaints Count"? Qs : value}</span>
-                      </motion.li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p className="text-gray-600">No data found</p>
-                )}
+  <ul className="space-y-4">
+    {transactionData.map(([key, value], index) => (
+      <motion.li
+        key={key}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: index * 0.1 }}
+        className="bg-gray-50 p-3 rounded-md"
+      >
+        <span className="font-semibold text-gray-700">{key}:</span>{" "}
+        <span className="text-gray-600">
+          {key === "Fraud Complaints Count"
+            ? qs.size
+            : typeof value === "boolean"
+            ? value ? "True" : "False"
+            : value}
+        </span>
+      </motion.li>
+    ))}
+  </ul>
+) : (
+  <p className="text-gray-600">No data found</p>
+)}
+
               </div>
               <div className="p-4 bg-gray-50 border-t border-gray-200">
                 <Button
