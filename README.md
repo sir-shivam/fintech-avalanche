@@ -43,23 +43,49 @@ By leveraging Random Forest classifiers for accurate predictions, SafeUPI ensure
 
 # User Interface Snapshots
 
-![Dashboard UI](https://i.imgur.com/1mgOS8m.png)
+![Signin UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 58 19 PM" src="https://github.com/user-attachments/assets/5b35633d-c076-4870-b73b-5fc01de7a27c" />
+)
 
-*Our SafePay AI User Dashboard UI*
+*Our SafeUPI User Signin UI*
+
+![Dashboard UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 56 53 PM" src="https://github.com/user-attachments/assets/ca5f16ea-e59b-44e4-aa8b-f6e1ca7b254c" />
+)
+
+*Our SafeUPI User Dashboard UI*
 
 ---
 
-![Fraud Detection UI](https://i.imgur.com/4h5D08o.png)
+![Send Money UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 00 PM" src="https://github.com/user-attachments/assets/5beeac65-6c7c-40c0-83a6-c1923ca9c3b3" />
+)
 
-*Our SafePay AI Fraud Detection Warning UI*
+*Our SafeUPI Send Money UI*
+
+![Fraud Detection UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 42 PM" src="https://github.com/user-attachments/assets/8e318cba-239b-4a6f-b66f-708482bbd6ac" />
+)
+
+*Our SafeUPI Fraud Detection Warning UI*
 
 ---
 
-![Recent Transaction UI](https://i.imgur.com/6AwLhGA.png)
+![Recent Transaction UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 09 PM" src="https://github.com/user-attachments/assets/ff4c303d-070e-4f79-81a6-6d784b46cc97" />
+)
 
-*Our SafePay Recent Transaction UI*
+*Our SafeUPI Recent Transaction UI*
 
+![Complaint UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 17 PM" src="https://github.com/user-attachments/assets/b09197db-0ae6-4c2c-a9d1-5e5bfe1ba7bb" />
+)
 
+*Our SafeUPI Complaint UI*
+
+![Transaction Details UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 48 PM" src="https://github.com/user-attachments/assets/7afaa2d5-579f-4fab-8aad-51265fc075d1" />
+)
+
+*Our Transaction Details UI*
+
+![Complaints History UI](<img width="1440" alt="Screenshot 2025-02-22 at 12 57 55 PM" src="https://github.com/user-attachments/assets/a7bf5367-d3c4-4194-baed-8d7c4204d0e6" />
+)
+
+*Our Complaints History UI*
 
 ## Installation
 
