@@ -5168,7 +5168,7 @@ export default function Homepage() {
 
       // Send the features to the Flask server
       const response = await fetch(
-        "http://ec2-54-82-77-95.compute-1.amazonaws.com/predict",
+        "https://0b05-2401-4900-634a-8866-797f-9669-99af-1302.ngrok-free.app/predict",
         {
           method: "POST",
           headers: {
