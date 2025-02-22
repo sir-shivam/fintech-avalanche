@@ -5475,7 +5475,7 @@ export default function Homepage() {
         <span className="font-semibold text-gray-700">{key}:</span>{" "}
         <span className="text-gray-600">
           {key === "Fraud Complaints Count"
-            ? qs.size
+            ? Qs.size
             : typeof value === "boolean"
             ? value ? "True" : "False"
             : value}
